@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add/Edit Item"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_dark"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Item Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/text_dark" />
+
+        <EditText
+            android:id="@+id/editTextItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item name"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/neutral_gray"
+            android:backgroundTint="@color/primary_green" />
+
+        <!-- Quantity -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textColor="@color/text_dark"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/neutral_gray"
+            android:backgroundTint="@color/primary_green" />
+
+        <!-- Category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category (optional)"
+            android:textColor="@color/text_dark"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Snacks, Dairy, etc."
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/neutral_gray"
+            android:backgroundTint="@color/primary_green" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/buttonDeleteItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Item"
+            android:textColor="@color/text_light"
+            android:backgroundTint="@color/button_green"
+            android:layout_marginTop="28dp"
+            android:padding="12dp" />
+
+        <!-- Bottom Buttons Row -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <!-- Cancel Button -->
+            <Button
+                android:id="@+id/buttonCancelItem"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/text_light"
+                android:backgroundTint="@color/button_green"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/buttonSaveItem"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textColor="@color/text_light"
+                android:backgroundTint="@color/button_green"
+                android:padding="12dp"
+                android:layout_marginStart="8dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="soft_mint">#A8E6A1</color>
+
+    <color name="neutral_light">#F5F5F5</color>
+    <color name="neutral_gray">#E0E0E0</color>
+
+    <color name="accent_yellow">#FFF599</color>
+
+    <color name="button_green">#006F46</color>
+
+    <!-- For text -->
+    <color name="text_dark">#333333</color>
+    <color name="text_light">#FFFFFF</color>
 </resources>
