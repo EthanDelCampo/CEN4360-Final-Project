@@ -11,6 +11,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
+//AI was used to assist with debugging
+
 public class MainActivity extends AppCompatActivity {
 
     private AppDatabase db;                       //Database instance
